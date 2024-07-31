@@ -2,7 +2,7 @@ package test;
 
 import java.util.HashSet;
 import java.util.Set;
-
+//기능 자체는 구현이 돠었지만 문제의 좌표평면이 커질 경우 메모리 부족 오류가 뜸
 public class Test {
     public static void main(String[] args) {
 		int[][] rectangles = {{1, 1, 6, 5},{2, 0, 4, 2}, {2, 4, 5, 7}, {4, 3, 8, 6}, {7, 5, 9, 7}};
